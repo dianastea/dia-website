@@ -8,7 +8,7 @@ import {
   createTheme,
   Box,
 } from "@mui/material";
-import { ReactComponent as IPadIcon } from "../../../public/ipad2.svg"; // Adjust the path as needed
+import { ReactComponent as IPadIcon } from "../../items/ipad2.svg"; // Adjust the path as needed
 import "../Classes2/Experiences.css";
 
 const IpadCard = () => {

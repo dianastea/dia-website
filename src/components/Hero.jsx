@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { grid2Classes, Typography } from "@mui/material";
-import { ReactComponent as MusicIcon } from "../../public/music.svg"; // Adjust the path as needed
+import { ReactComponent as MusicIcon } from "../items/music.svg"; // Adjust the path as needed
 import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
 
 export default () => {

@@ -1,0 +1,46 @@
+.experiences,
+.classes,
+.about {
+  /* background-color: palegreen; */
+  display: grid;
+  flex-grow: 1;
+  grid-template-rows: 1fr;
+  grid-row-gap: 50px;
+  grid-auto-flow: row;
+  margin-bottom: 100px;
+  padding-top: 70px;
+  /* align-content: center; */
+  /* justify-content: center; */
+}
+
+.exp-desc {
+  justify-self: center;
+  text-align: center;
+}
+
+.exp-cards {
+  align-self: start;
+  display: grid;
+  /* align-items: center; */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  /* justify-items: center; */
+}
+
+.activity-img {
+  height: auto;
+  /* max-height: 100%; */
+  width: 100%;
+  object-fit: contain;
+  max-width: 150px;
+}
+
+.activity-container {
+  align-self: center;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-column-gap: 5%;
+  justify-items: start;
+  align-items: center;
+  width: 100%;
+}
